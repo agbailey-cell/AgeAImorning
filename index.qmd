@@ -1,0 +1,26 @@
+---
+title: "My First Quarto Site"
+author: "Alex Bailey"
+format: html
+---
+
+## Welcome
+
+This page was written in **Quarto** and published straight to GitHub.
+
+- It renders to a real website.
+- The source is plain text, so Git tracks every change cleanly.
+
+
+```{python}
+print("Hello from a rendered code chunk!")
+```
+
+
+```{python}
+import pandas as pd
+
+import plotly.express as px
+
+sales = pd.read_csv("data/campus_cafe_sales.csv")
+```
